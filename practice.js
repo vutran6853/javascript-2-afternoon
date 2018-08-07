@@ -16,6 +16,12 @@
 
 //Code here
 
+let me = {
+  name: "Vu",
+  age: 30
+}
+
+//////////// alert(me.name);
 
 
 ////////// PROBLEM 2 //////////
@@ -27,6 +33,14 @@
 
 //Code here
 
+let favoriteThings = {
+  band: "Earth, Wind and Fire",
+  food: "Pho",
+  person: "Vu",
+  book: "Learning JavaScript The Hard Way",
+  movie: "The Dark Knight",
+  holiday: "New Years Eve"
+}
 
 
 /*
@@ -35,7 +49,10 @@
 
 //Code here
 
+favoriteThings.car = "BMW";
+favoriteThings.brand = "7 series"
 
+console.log(favoriteThings);
 
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
@@ -43,7 +60,8 @@
 
 //Code here
 
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 ////////// PROBLEM 3 //////////
 
@@ -57,6 +75,13 @@
 
 //Code here
 
+let backPack = {};
+
+let item = "firstPocket";
+
+backPack.firstPocket = "chapstick";
+
+backPack.color = "Black";
 
 
 /*
@@ -65,6 +90,7 @@
 
 //Code here
 
+////// alert(backPack);
 
 
 /*
@@ -75,7 +101,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
-
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -97,11 +123,10 @@ var user2 = {
 */
 
 //Code Here
+user2.name = "Tyler S. McGinnis";
+user2.email = 'tyler.mcginnis@devmounta.in';
 
-
-
-
-
+console.log(user2.name);
 
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
@@ -121,7 +146,7 @@ var user2 = {
 
 //Code Here
 
-
+let methodCollection = {};
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object. 
@@ -131,13 +156,11 @@ var user2 = {
 //Code Here
 
 
-
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
 
 
 ////////// PROBLEM 6 //////////
@@ -148,6 +171,7 @@ var user2 = {
 */
 
 //Code Here
+
 
 
 
